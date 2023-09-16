@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --primary-soft-blue: hsl(215, 51%, 70%);
+  --primary-cyan: hsl(178, 100%, 50%);
+  /* neutral colour */
+  --neutral-dark-blue-main: hsl(217, 54%, 11%);
+  --neutral-dark-blue-card: hsl(216, 50%, 16%);
+  --neutral-dark-blue-line: hsl(215, 32%, 27%);
+  --neutral-white: hsl(0, 0%, 100%);
+}
+
+* {
+  font-family: "outfit", sans-serif;
+}
