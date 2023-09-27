@@ -13,3 +13,42 @@
 * {
   font-family: "outfit", sans-serif;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--neutral-dark-blue-main);
+}
+
+#cover {
+  display: block;
+  width: 80vh;
+  border-radius: 10px;
+}
+
+.container {
+  width: min-content;
+  background: linear-gradient(
+    0deg,
+    var(--neutral-dark-blue-card),
+    var(--neutral-dark-blue-line)
+  );
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  box-shadow: 15px 15px 5px hsl(215, 95%, 8%);
+}
+
+p {
+  font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
